@@ -12,15 +12,15 @@ const SequelizeStore = require('connect-session-sequelize')(session.Store);
 const hbs = exphbs.create({helpers});
 
 // init session
-const sess = {
+const sesh = {
     secret: 'Super secret secret',
-    cookie: { maxAge: 6500000 },
+    cookie: {},
     resave: false,
     saveUninitialized: true,
     store: new SequelizeStore({
-        db: sequelize
+      db: sequelize
     })
-};
+  };
 
 // initilize the server
 const app = express();
@@ -37,7 +37,7 @@ app.set('view engine', 'handlebars');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use(session(sess));
+app.use(session(sesh));
 
 // path to the routes
 app.use(routes);
