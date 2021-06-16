@@ -13,7 +13,7 @@ const hbs = exphbs.create({helpers});
 
 // init session
 const sess = {
-    secret: process.env.DB_SESSION_SECRET,
+    secret: 'Super secret secret',
     cookie: { maxAge: 6500000 },
     resave: false,
     saveUninit: true,
