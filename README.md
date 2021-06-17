@@ -6,7 +6,7 @@ UCSD-SD-FSF-PT-03-2021-U-C-MW
 
 [GitHub link](https://github.com/djony88/14_Model-View-Controller_MVC_Tech_Blog)
 
-[Heroku link]()
+[Heroku link](https://gentle-sands-99944.herokuapp.com/)
 
 Requirements:
 
@@ -24,8 +24,12 @@ Requirements:
 * When clicked on create post button title and contents of your post are saved and you are taken back to an updated dashboard with your new blog post.
 * When clicked on existing post in dashboard you are able to edit od delite existing posts.
 
-![Screenshot 1]()
+![Screenshot 1](.\assets\img\1.PNG)
 
-![Screenshot 2]()
+![Screenshot 2](.\assets\img\2.PNG)
 
-![Screenshot 3]()
+![Screenshot 3](.\assets\img\3.PNG)
+
+![Screenshot 4](.\assets\img\4.PNG)
+
+![Screenshot 5](.\assets\img\5.PNG)
